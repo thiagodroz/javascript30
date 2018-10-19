@@ -1,0 +1,51 @@
+#Packages
+node_modules
+
+# IDE
+.vscode
+.idea
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+MANIFEST
+
+*.manifest
+*.spec
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env-develop
+.env-production
+.env-staging
+
+# Logs
+!app/log/.gitkeep
+app/log/*
+
+# Test coverage report
+!app/coverage/.gitkeep
+app/coverage/*
+
+#Redis
+*.rdb
+
+.DS_Store
+
+#Terraform
+.terraform
+.terraform/*
+newrelic_agent.log
+
+# ASDF
+.tool-versions
